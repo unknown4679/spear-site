@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "S.P.E.A.R.™ Protocol — The Protocol That Changes Everything",
+  "description": "S.P.E.A.R.™ is a trust-first protocol for AI-driven, frictionless commerce from conversation to checkout.",
+  "datePublished": "2025-07-23",
+  "author": { "@type": "Person", "name": "Cory Schaub" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SPEAR Holdings LLC",
+    "url": "https://spearhl.com",
+    "logo": { "@type": "ImageObject", "url": "https://spearhl.com/logo.svg" }
+  },
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": "S.P.E.A.R.™ Protocol",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web"
+  },
+  "award": ["Grok (xAI) Validation","ChatGPT (OpenAI) Validation"],
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://spearhl.com/" }
+}

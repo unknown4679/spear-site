@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>S.P.E.A.R.™ Protocol — The Protocol That Changes Everything</title>
+  <meta name="description" content="S.P.E.A.R.™ is a trust-first protocol for AI-driven, frictionless commerce from conversation to checkout." />
+
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{spear:'#ff2a4f'},boxShadow:{glow:'0 0 24px rgba(255,42,79,.35)'}}}};</script>
+
+  <!-- JSON-LD (served as a file below) -->
+  <script type="application/ld+json" src="/schema.json"></script>
+
+  <link rel="icon" href="/logo.svg" />
+  <style>
+    html,body{background:#000;color:#fff;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    .glow-title{color:#ff2a4f;text-shadow:0 0 16px #ff2a4f}
+    .btn-glow{background:#ff2a4f;color:#000;box-shadow:0 0 18px rgba(255,42,79,.55)}
+    .card{background:#101010;border:1px solid #ff2a4f;box-shadow:0 0 24px rgba(255,42,79,.25)}
+    .muted{color:#cfcfcf}
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+<header class="bg-black/90 sticky top-0 z-50 border-b border-neutral-800">
+  <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="#home" class="flex items-center gap-3">
+      <img src="/logo.svg" alt="S.P.E.A.R.™ Protocol" class="h-8 w-auto"/>
+    </a>
+    <div class="flex items-center gap-6 text-spear">
+      <a href="#home" class="hover:underline">Home</a>
+      <a href="#protocol" class="hover:underline">Protocol</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="flex-1">
+  <section id="home" class="max-w-5xl mx-auto px-4 py-20 text-center">
+    <h1 class="text-4xl md:text-6xl font-extrabold glow-title">The Protocol That Changes Everything</h1>
+    <p class="mt-4 text-lg md:text-xl muted">The future of AI-driven commerce starts here.</p>
+    <p class="mt-8 text-sm text-neutral-300">Please contact for more information. Thank you.</p>
+  </section>
+
+  <section id="protocol" class="max-w-5xl mx-auto px-4 py-12">
+    <h2 class="text-3xl md:text-4xl font-extrabold glow-title text-center">Protocol Insights</h2>
+    <p class="mt-3 text-center muted">Official announcements, validation results, and technical documentation from S.P.E.A.R.™ Protocol</p>
+
+    <article class="card rounded-xl p-6 mt-8">
+      <header class="flex items-center justify-between text-sm muted">
+        <span>July 23, 2025</span>
+        <span class="bg-spear text-black px-2 py-1 rounded font-bold">VALIDATION</span>
+      </header>
+      <h3 class="mt-3 text-xl md:text-2xl font-bold">Validated by Grok: 100 Million Users. Real-Time AI. Frictionless Checkout.</h3>
+      <p class="mt-3 text-neutral-200">
+        The S.P.E.A.R.™ Protocol has been officially validated by Grok (xAI) for a 100M user pilot and a $7.9B model.
+      </p>
+      <p class="mt-5 text-sm text-neutral-300">Please contact for more information. Thank you.</p>
+    </article>
+  </section>
+
+  <section id="about" class="max-w-5xl mx-auto px-4 py-12">
+    <h2 class="text-3xl md:text-4xl font-extrabold glow-title text-center">About S.P.E.A.R.™</h2>
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="card rounded-xl p-6">
+        <h3 class="text-xl font-bold">Mission</h3>
+        <p class="mt-2 text-neutral-200">Deliver frictionless, AI-powered, real-time checkout from conversation to completion, built on trust, privacy, and performance.</p>
+      </div>
+      <div class="card rounded-xl p-6">
+        <h3 class="text-xl font-bold">What We're Building</h3>
+        <p class="mt-2 text-neutral-200">A protocol layer that unifies AI, identity, and payments, enabling brands to activate commerce directly in DMs and chat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto px-4 py-8">
+    <div class="card rounded-xl p-6 text-center">
+      <p class="text-neutral-200">Please contact for more information. Thank you.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="max-w-3xl mx-auto px-4 py-12">
+    <h2 class="text-3xl md:text-4xl font-extrabold glow-title text-center">Get in Touch</h2>
+    <p class="mt-3 text-center muted">Ready to discuss S.P.E.A.R.™? Let's connect.</p>
+
+    <form class="mt-8 grid gap-4 card rounded-xl p-6" onsubmit="event.preventDefault(); alert('Please email cory@spearhl.com');">
+      <input class="w-full rounded-md bg-neutral-900 border border-neutral-700 px-3 py-2" placeholder="Your name" required />
+      <input class="w-full rounded-md bg-neutral-900 border border-neutral-700 px-3 py-2" type="email" placeholder="you@example.com" required />
+      <input class="w-full rounded-md bg-neutral-900 border border-neutral-700 px-3 py-2" placeholder="Company (optional)" />
+      <textarea class="w-full rounded-md bg-neutral-900 border border-neutral-700 px-3 py-2" rows="5" placeholder="Tell us about your goals"></textarea>
+      <button class="btn-glow rounded-lg px-5 py-2 font-semibold">Send (disabled)</button>
+      <p class="text-xs text-neutral-400">Submission is disabled on this static site. Please email <a class="underline text-spear" href="mailto:cory@spearhl.com">cory@spearhl.com</a>.</p>
+    </form>
+  </section>
+</main>
+
+<footer class="border-t border-neutral-800 py-8">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="text-neutral-400 text-sm">© 2025 S.P.E.A.R.™ Protocol — All rights reserved.</div>
+    <div class="flex items-center gap-5 text-spear text-sm">
+      <a href="#protocol" class="hover:underline">Protocol</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

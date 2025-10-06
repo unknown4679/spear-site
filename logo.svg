@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="140" viewBox="0 0 560 140" role="img" aria-label="S.P.E.A.R.™ Protocol">
+  <defs>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <g filter="url(#softGlow)">
+    <text x="0" y="62" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="1.5">S.P.E.A.R.™</text>
+    <text x="0" y="110" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="600" fill="#cfcfcf" letter-spacing="1">Protocol</text>
+  </g>
+</svg>
